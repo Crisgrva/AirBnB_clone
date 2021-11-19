@@ -84,3 +84,55 @@
     width: 50px;
     height: 50px;
 }
+
+.amenities h2, .reviews h2 {
+    margin-top: 40px;
+    font-size: 16px;
+    border-bottom: 1px solid #DDDDDD;
+    padding-bottom: 5px;
+}
+
+.amenities ul, .reviews ul {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.amenities ul li {
+    display: flex;
+}
+
+.pet_icon {
+    background-image: url("../images/icon_pets.png");
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+.wifi_icon {
+    background-image: url("../images/icon_wifi.png");
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+.tv_icon {
+    background-image: url("../images/icon_tv.png");
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+.reviews ul li h3 {
+    font-size: 14px;
+    margin-block-start: 1em;
+    margin-block-end: 0em;
+}
+
+.reviews ul li p {
+    font-size: 12px;
+    margin-block-start: .5em;
+    margin-block-end: 1em;
+}

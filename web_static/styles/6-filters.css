@@ -92,9 +92,14 @@ ul.popover li {
     margin-left: 30px;
 }
 
+ul.popover>li {
+    margin-bottom: 10px;
+}
+
 ul.popover ul {
     list-style: none;
     padding-inline-start: 0px;
+
 }
 
 ul.popover h2 {

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirBnB clone</title>
+    <link rel="stylesheet" href="styles/4-common.css">
+    <link rel="stylesheet" href="styles/3-header.css">
+    <link rel="stylesheet" href="styles/3-footer.css">
+    <link rel="stylesheet" href="styles/6-filters.css">
+    <link rel="stylesheet" href="styles/100-places.css">
+    <link rel="icon" href="images/icon.png" type="image/png">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo"></div>
+    </header>
+    <div class="container">
+        <section class="filters">
+            <div class="locations">
+
+                <h3>States</h3>
+                <h4>California, Arizona...</h4>
+                <ul class="popover" id="locations_popover">
+                    <li>
+                        <h2>Arizona:</h2>
+                        <ul>
+                            <li>Page</li>
+                            <li>Page2</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h2>California:</h2>
+                        <ul>
+                            <li>San Francisco</li>
+                            <li>Los Altos</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="amenities">
+                <h3>Amenities</h3>
+                <h4>Internet, Kitchen...</h4>
+                <ul class="popover" id="amenities_popover">
+                    <li>Internet</li>
+                    <li>TV</li>
+                    <li>Kitchen</li>
+                    <li>Iron</li>
+                </ul>
+            </div>
+            <button>Search</button>
+        </section>
+        <section class="places">
+            <h1>Places</h1>
+            <div class="list_places">
+                <article>
+                    <div class="place_header">
+                        <h2>My House</h2>
+                        <div class="price_by_night">$80</div>
+                    </div>
+                    <div class="information">
+                        <div class="max_guest">
+                            <ul>
+                                <li class="info_icon_guest"></li>
+                                <li>2 Guests</li>
+                            </ul>
+                        </div>
+                        <div class="number_rooms">
+                            <ul>
+                                <li class="info_icon_bedroom"></li>
+                                <li>1 Bedroom</li>
+                            </ul>
+                        </div>
+                        <div class="number_bathrooms">
+                            <ul>
+                                <li class="info_icon_bathroom"></li>
+                                <li>1 Bathroom</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="user">
+                        <p><b>Owner:</b> John Doe</p>
+                    </div>
+                    <div class="description">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim ullam cumque qui voluptatum
+                            blanditiis ex sit quis consequatur mollitia nihil dolores esse sequi eligendi, quidem,
+                            itaque dolore voluptas consectetur illum.</p>
+                    </div>
+                    <div class="amenities">
+                        <h2>Amenities</h2>
+                        <ul>
+                            <li>
+                                <div class="pet_icon"></div>
+                                <div class="amenitie_txt">Pets firendly</div>
+                            </li>
+                            <li>
+                                <div class="wifi_icon"></div>
+                                <div class="amenitie_txt">Wifi</div>
+                            </li>
+                            <li>
+                                <div class="tv_icon"></div>
+                                <div class="amenitie_txt">TV</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="reviews">
+                        <h2>Reviews</h2>
+                        <ul>
+                            <li>
+                                <h3>From Bob Dylan the 27th January 2017</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, expedita! Numquam, quasi
+                                    soluta? Delectus repellendus, illum distinctio, repudiandae ipsum optio provident
+                                    autem praesentium maiores fugiat vel quia laboriosam, at quos.</p>
+                            </li>
+                            <li>
+                                <h3>From Bob Dylan the 27th January 2017</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, expedita! Numquam, quasi
+                                    soluta? Delectus repellendus, illum distinctio, repudiandae ipsum optio provident
+                                    autem praesentium maiores fugiat vel quia laboriosam, at quos.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+                <article>
+                    <div class="place_header">
+                        <h2>My House</h2>
+                        <div class="price_by_night">$80</div>
+                    </div>
+                    <div class="information">
+                        <div class="max_guest">
+                            <ul>
+                                <li class="info_icon_guest"></li>
+                                <li>2 Guests</li>
+                            </ul>
+                        </div>
+                        <div class="number_rooms">
+                            <ul>
+                                <li class="info_icon_bedroom"></li>
+                                <li>1 Bedroom</li>
+                            </ul>
+                        </div>
+                        <div class="number_bathrooms">
+                            <ul>
+                                <li class="info_icon_bathroom"></li>
+                                <li>1 Bathroom</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="user">
+                        <p><b>Owner:</b> John Doe</p>
+                    </div>
+                    <div class="description">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim ullam cumque qui voluptatum
+                            blanditiis ex sit quis consequatur mollitia nihil dolores esse sequi eligendi, quidem,
+                            itaque dolore voluptas consectetur illum.</p>
+                    </div>
+                    <div class="amenities">
+                        <h2>Amenities</h2>
+                        <ul>
+                            <li>
+                                <div class="pet_icon"></div>
+                                <div class="amenitie_txt">Pets firendly</div>
+                            </li>
+                            <li>
+                                <div class="wifi_icon"></div>
+                                <div class="amenitie_txt">Wifi</div>
+                            </li>
+                            <li>
+                                <div class="tv_icon"></div>
+                                <div class="amenitie_txt">TV</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="reviews">
+                        <h2>Reviews</h2>
+                        <ul>
+                            <li>
+                                <h3>From Bob Dylan the 27th January 2017</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, expedita! Numquam, quasi
+                                    soluta? Delectus repellendus, illum distinctio, repudiandae ipsum optio provident
+                                    autem praesentium maiores fugiat vel quia laboriosam, at quos.</p>
+                            </li>
+                            <li>
+                                <h3>From Bob Dylan the 27th January 2017</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, expedita! Numquam, quasi
+                                    soluta? Delectus repellendus, illum distinctio, repudiandae ipsum optio provident
+                                    autem praesentium maiores fugiat vel quia laboriosam, at quos.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+                <article>
+                    <div class="place_header">
+                        <h2>My House</h2>
+                        <div class="price_by_night">$80</div>
+                    </div>
+                    <div class="information">
+                        <div class="max_guest">
+                            <ul>
+                                <li class="info_icon_guest"></li>
+                                <li>2 Guests</li>
+                            </ul>
+                        </div>
+                        <div class="number_rooms">
+                            <ul>
+                                <li class="info_icon_bedroom"></li>
+                                <li>1 Bedroom</li>
+                            </ul>
+                        </div>
+                        <div class="number_bathrooms">
+                            <ul>
+                                <li class="info_icon_bathroom"></li>
+                                <li>1 Bathroom</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="user">
+                        <p><b>Owner:</b> John Doe</p>
+                    </div>
+                    <div class="description">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim ullam cumque qui voluptatum
+                            blanditiis ex sit quis consequatur mollitia nihil dolores esse sequi eligendi, quidem,
+                            itaque dolore voluptas consectetur illum.</p>
+                    </div>
+                    <div class="amenities">
+                        <h2>Amenities</h2>
+                        <ul>
+                            <li>
+                                <div class="pet_icon"></div>
+                                <div class="amenitie_txt">Pets firendly</div>
+                            </li>
+                            <li>
+                                <div class="wifi_icon"></div>
+                                <div class="amenitie_txt">Wifi</div>
+                            </li>
+                            <li>
+                                <div class="tv_icon"></div>
+                                <div class="amenitie_txt">TV</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="reviews">
+                        <h2>Reviews</h2>
+                        <ul>
+                            <li>
+                                <h3>From Bob Dylan the 27th January 2017</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, expedita! Numquam, quasi
+                                    soluta? Delectus repellendus, illum distinctio, repudiandae ipsum optio provident
+                                    autem praesentium maiores fugiat vel quia laboriosam, at quos.</p>
+                            </li>
+                            <li>
+                                <h3>From Bob Dylan the 27th January 2017</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, expedita! Numquam, quasi
+                                    soluta? Delectus repellendus, illum distinctio, repudiandae ipsum optio provident
+                                    autem praesentium maiores fugiat vel quia laboriosam, at quos.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>Best School</p>
+    </footer>
+</body>
+
+</html>
